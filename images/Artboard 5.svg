@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1440" viewBox="0 0 1440 1440">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #01185b;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard 1">
+    <path id="Polygon_1" data-name="Polygon 1" class="cls-1" d="M716,427.42q1.08,267.159,215.946,101.411Q718.426,696.225,985.28,756.7,717.946,698.279,835.841,939.438q-119.841-240.246-239.682,0Q714.055,698.278,446.72,756.7q266.855-60.476,53.334-227.87Q714.92,694.58,716,427.42Z"/>
+  </g>
+</svg>

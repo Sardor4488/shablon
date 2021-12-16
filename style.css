@@ -1,0 +1,418 @@
+a {
+  text-decoration: none !important;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+.headline{
+  font-size: 50px !important;
+  letter-spacing: 4px !important;
+}
+ 
+body {
+  overflow-x: hidden;
+}
+.backround-succes {
+  background-color: #cfd9e3;
+}
+.color-blue,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+span {
+  color: #00154f;
+}
+.container {
+  width: 70% !important;
+  margin: auto !important;
+}
+.logo {
+  width: 150px;
+}
+.text-title {
+   font-size: 20px;
+  font-weight: 700;
+  
+}
+.btn {
+  background-color: #5e33f2 !important;
+  color: #fff !important;
+  padding: 15px !important;
+  border-radius: 30px !important;
+}
+.text {
+  font-size: 25px;
+   font-weight: 500 !important;
+}
+.main_section {
+  position: relative !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.start10 {
+  overflow-y: hidden;
+  position: absolute !important;
+  bottom: -50px !important;
+  width: 400px !important;
+  right: -200px !important;
+}
+.img5 {
+  position: absolute;
+  top: -40px !important;
+  left: -110px !important;
+  width: 300px !important;
+}
+
+.second-section {
+  position: relative;
+}
+.star-three {
+  position: absolute;
+  top: 200px;
+  width: 300px !important;
+  left: -50px;
+}
+.star_5 {
+  position: absolute;
+  width: 150px !important;
+  top: 400px;
+  right: -60px;
+}
+.start7full {
+  position: absolute;
+  width: 100px;
+  top: 1100px;
+  right: 300px !important;
+}
+.chackbox {
+  width: 20px !important;
+  padding-bottom: 5px;
+}
+.becouse-content {
+  margin: 50px 0;
+  border-radius: 130px !important;
+  padding: 50px !important;
+  position: relative;
+}
+.qizilYulduz7 {
+  position: absolute;
+  width: 200px !important;
+  bottom: -100px !important;
+}
+.fikrlar {
+  position: relative;
+}
+.card-thought {
+  position: relative;
+}
+.iconMansurStar {
+  width: 110px;
+  right: 100px;
+  position: absolute;
+  top: 90px;
+}
+.iconShohjaxonStarts {
+  width: 110px;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+.iconUmidagalaxy {
+  width: 130px;
+  position: absolute;
+  top: 100px;
+  right: 10px;
+}
+.kikrlar-star1 {
+  position: absolute;
+  width: 200px;
+  left: -100px;
+}
+.kikrlar-star2 {
+  position: absolute;
+  width: 200px;
+  right: -115px;
+}
+.img3x4 {
+  position: relative;
+  z-index: 1000;
+}
+.kursOqituvchisiKim {
+  position: relative;
+  overflow: hidden !important;
+}
+.kursOqituvchisiKim .text{
+  line-height: 30px;
+  margin-bottom: 27px !important;
+}
+   
+
+.galaxyRoundStar {
+  position: absolute;
+  width: 500px;
+
+  left: 0px;
+}
+.natijalar {
+  width: 100%;
+}
+.img3x4 {
+  width: 250px !important;
+  /* margin: auto !important; */
+}
+.section-koreys-tili {
+  position: relative !important;
+  overflow-x: hidden !important;
+  overflow-y: hidden !important;
+}
+.round-galaxy {
+  position: absolute !important;
+  top: 0px;
+  right: 250px;
+  width: 200px;
+}
+.redStar2 {
+  position: absolute;
+  left: 200px;
+  width: 100px;
+  top: 200px;
+}
+.starFullBlue {
+  position: absolute;
+  width: 150px;
+  bottom: 150px;
+  right: 300px;
+}
+.card-thought {
+  border-radius: 50px !important;
+  padding: 40px 20px !important;
+  margin-top: 20px !important;
+}
+.img-thought {
+  border-radius: 20px !important;
+}
+.card-thought-top {
+  margin-top: 80px !important;
+}
+
+.accordion {
+  border: 1px solid #00154f;
+  border-radius: 5px;
+  padding: 5px;
+  transition: 0.4s;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  position: relative;
+  user-select: none;
+}
+.accordion > p {
+  transition: 0.4s;
+
+  margin: 0px;
+  width: 90%;
+  font-size: 22px;
+  color: #00154f !important;
+  line-height: 23px;
+}
+.active,
+.accordion:hover {
+  color: #00154f !important;
+}
+
+.panel {
+  padding: 5px;
+  width: 100%;
+  font-size: 18px;
+  display: none;
+  background-color: transparent;
+  color: #00154f !important;
+  overflow: hidden;
+}
+
+.panel p {
+  color: #00154f !important;
+  margin: 0px;
+}
+
+.accordion::after {
+  content: "\002B";
+  color: #00154f !important;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+  font-size: 30px;
+}
+.accordion.active::after {
+  content: "\2212";
+}
+@media screen and (max-width: 801px) {
+  .kursOqituvchisiKim .text{
+   
+    margin-bottom: 20px !important;
+  }
+  .text , span {
+     line-height: 35px !important;
+    font-size: 25px !important;
+    
+   }
+
+}
+
+@media screen and (max-width: 992px) {
+  .card-thought-top {
+    margin-top: 20px !important;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .galaxyRoundStar {
+    left: 0px !important;
+  }
+  .headline{
+    font-size: 30px !important;
+    letter-spacing: 1px !important;
+  }
+  .start7full {
+    left: -40px !important;
+  }
+  .starFullBlue {
+    left: 0px !important;
+  }
+  .container {
+    width: 80% !important;
+    margin: auto !important;
+  }
+  .becouse-content {
+    border-radius: 90px !important;
+  }
+}
+
+.my-container {
+  width: 60%;
+  margin: auto;
+}
+
+.box {
+  position: relative;
+  padding: 30px;
+}
+
+.box .number {
+  width: 40px;
+  height: 40px;
+  background-color: #0b2359;
+  color: white;
+  border-radius: 50%;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .left-number::before {
+  position: absolute;
+  left: 70px;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background-color: #0b2359;
+}
+
+.box .right-number::before {
+  position: absolute;
+  left: 70px;
+  content: "";
+  width: 60%;
+  height: 3px;
+  background-color: #0b2359;
+}
+
+.box .title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0b2359;
+  margin-top: 10px;
+  line-height: 100%;
+}
+
+.box .subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: #273c6b;
+  height: 50px;
+  padding-bottom: 120px;
+}
+.becauses {
+  outline: hidden !important;
+  overflow-x: hidden !important;
+}
+@media screen and (max-width: 1200px) {
+  .my-container {
+    width: 80%;
+  }
+  .kikrlar-star2 {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .my-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 801px) {
+  .logo {
+    width: 100px;
+  }
+  .star_5 {
+    display: none !important;
+  }
+  .my-container {
+    width: 100%;
+  }
+  .box .subtitle,
+  .box .subtitle {
+    font-size: 20px;
+  }
+  .box .right-number::before {
+    width: 70%;
+  }
+
+  .box .left-number::before {
+    width: 100%;
+  }
+  /* .text , span {
+    font-size: 28px;
+    line-height: 10px !important;
+  } */
+
+  .first-box {
+    order: 1 !important;
+  }
+  .second-box {
+    order: 2 !important;
+  }
+  .three-box {
+    order: 3 !important;
+  }
+  .four-box {
+    order: 4 !important;
+  }
+}
+
+@media screen and (max-width: 577px) {
+  .box .right-number::before,
+  .box .left-number::before {
+    width: 75%;
+  }
+  .natijalar {
+    height: 210px !important;
+    width: 100%;
+   }
+}
